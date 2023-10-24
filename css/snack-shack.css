@@ -1,0 +1,10 @@
+.logo{
+    position: absolute;
+    padding: 32px;
+    left: 30px;
+}
+.small-logo{
+    position: absolute;
+    top: 95px;
+    left: 130px;
+}
