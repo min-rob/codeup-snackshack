@@ -1,0 +1,98 @@
+/* Login style */
+.page-wrapper {
+  background-image: url("../img/mesh-gradient-noisy.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.login-container {
+  min-width: 1000px;
+  min-height: 600px;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  box-shadow: 10px 15px 15px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.199999809265137px);
+  display: flex;
+  flex-direction: row;
+}
+
+.form-wrapper {
+  min-width: 500px;
+  min-height: 600px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0 solid transparent;
+  padding-left: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 61px;
+  gap: 12px;
+}
+
+.login-form h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+  padding-top: 38px;
+  padding-bottom: 31px;
+}
+
+.img-wrapper {
+  min-width: 500px;
+  min-height: 600px;
+}
+
+.login-button {
+  width: 400px;
+  height: 45px;
+  margin-top: 31px;
+  border-radius: 10px;
+  border: 0 solid transparent;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 5px 5px 0px rgba(0, 0, 0, 0.09), 0px 10px 6px 0px rgba(0, 0, 0, 0.05),
+    0px 18px 7px 0px rgba(0, 0, 0, 0.01), 0px 29px 8px 0px rgba(0, 0, 0, 0);
+  background-color: #96b9d9;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+
+.login-form h3 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.login-form a:hover {
+  color: #96b9d9;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Register style */
